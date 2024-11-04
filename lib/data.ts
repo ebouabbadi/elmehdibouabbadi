@@ -39,56 +39,49 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Full-Stack Developer - Internship",
+    location: "Tangier, Morocco · On-site",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Developed and maintained ERP software using Odoo and Python, tailoring solutions to meet business needs.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Mar 2024 - Apr 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Mobile Developer - Internship",
+    location: "Casablanca, Morocco · Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Spearheaded mobile app development using React Native and Expo, delivering robust, cross-platform solutions for iOS and Android devices.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Apr 2024 - Aug 2024",
+  },
+  {
+    title: "Mobile Developer - Freelance",
+    location: "Casablanca, Morocco · Remote",
+    description:
+      "Spearheading mobile development projects using React Native, ensuring smooth deployment and performance across iOS and Android platforms",
+    icon: React.createElement(CgWorkAlt),
+    date: "Aug 2024 - Present",
   },
 ] as const;
 
 export const educationData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "PHYSICAL MATTER SCIENCES",
+    school: "Sultan Moulay Slimane University",
+    description:
+    "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2018 - 2022",
+  },
+  {
+    title: "SOFTWARE ENGINEER - Member",
+    school: "UM6P - Mohammed VI Polytechnic University - 1337",
     description:
       "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021 - Present",
   },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+  
 ] as const;
 
 export const projectsData = [

@@ -16,20 +16,20 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
-    name: "Skills",
-    hash: "#skills",
+    name: "Education",
+    hash: "#education",
   },
   {
     name: "Experience",
     hash: "#experience",
   },
   {
-    name: "Education",
-    hash: "#education",
+    name: "Projects",
+    hash: "#projects",
+  },
+  {
+    name: "Skills",
+    hash: "#skills",
   },
   {
     name: "Contact",
@@ -40,6 +40,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Full-Stack Developer - Internship",
+    campagne: "Sahih Business",
     location: "Tangier, Morocco · On-site",
     description:
       "Developed and maintained ERP software using Odoo and Python, tailoring solutions to meet business needs.",
@@ -48,6 +49,7 @@ export const experiencesData = [
   },
   {
     title: "Mobile Developer - Internship",
+    campagne: "L’Atelier Digital - Digital Agency & AI",
     location: "Casablanca, Morocco · Remote",
     description:
       "Spearheaded mobile app development using React Native and Expo, delivering robust, cross-platform solutions for iOS and Android devices.",
@@ -56,6 +58,7 @@ export const experiencesData = [
   },
   {
     title: "Mobile Developer - Freelance",
+    campagne: "L’Atelier Digital - Digital Agency & AI",
     location: "Casablanca, Morocco · Remote",
     description:
       "Spearheading mobile development projects using React Native, ensuring smooth deployment and performance across iOS and Android platforms",
@@ -64,20 +67,32 @@ export const experiencesData = [
   },
 ] as const;
 
-export const educationData = [
+export const educationsData = [
   {
-    title: "PHYSICAL MATTER SCIENCES",
-    school: "Sultan Moulay Slimane University",
+    title: "Baccalaureate of physics sciences",
+    school: "Lycee Ibn Tofail Oued Zem",
+    location: "Oued Zem, Morocco",
     description:
-    "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "The program of the physical sciences branch includes the following main subjects: Physics and Chemistry, Mathematics, Life and Earth Sciences, and others.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2017 - 2018",
+  },
+  {
+    title: "Physical Matter Sciences",
+    school: "Sultan Moulay Slimane University",
+    location: "Khouribga, Morocco",
+
+    description:
+    "The Faculté Polydisciplinaire de Khouribga (FPK), established in 2004 as part of Morocco's decentralization and regionalization policies, is a multidisciplinary university under Sultan Moulay Slimane University. FPK offers a variety of initial and continuing education programs across fundamental and professional disciplines to meet the needs of the region it serves.",
     icon: React.createElement(LuGraduationCap),
     date: "2018 - 2022",
   },
   {
-    title: "SOFTWARE ENGINEER - Member",
+    title: "Software Engineer - Member",
     school: "UM6P - Mohammed VI Polytechnic University - 1337",
+    location: "Khouribga, Morocco",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "1337 is the first institution to provide free IT training in Morocco. Its educational approach is based on peer learning, a participatory method that allows students to unleash their creativity through project-based learning, preparing the future coders of tomorrow. 1337 is the coding school par excellence, offering a full immersion in a universe where the future is already present.",
     icon: React.createElement(LuGraduationCap),
     date: "2021 - Present",
   },
@@ -124,10 +139,17 @@ export const skillsData = [
   "Docker",
   "Prisma",
   "MongoDB",
+  "MySQL",
+  "PostgreSQL",
+  "MariaDB",
   "Express",
   "Git",
   "Trello",
   "PostgreSQL",
   "Python",
   "Framer Motion",
+  "Figma",
+  "AdobeXD",
+  "Canva",
+  "Bash",
 ] as const;

@@ -75,9 +75,9 @@ export default function Experience() {
                   ))}
                 </ul>
               </div>
-              <div className="">
+              {/* <div className="">
                 <button className="mt-3" onClick={()=> handlOpen(index)}>{"<>"}</button>
-              </div>
+              </div> */}
             </VerticalTimelineElement>
           </React.Fragment>
         ))}

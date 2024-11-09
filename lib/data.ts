@@ -110,25 +110,37 @@ export const educationsData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "TRANSCENDENCE",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      `In front-end development, I prioritized seamless user experiences and intuitive
+        navigation. Crafting visually captivating interfaces with React and Next.js, I optimized
+        performance and responsiveness through server-side rendering, ensuring smooth
+        transitions and swift loading times.
+        With Nest.js, I built a secure, scalable backend, ensuring efficient communication and
+        data management. Leveraging PostgreSQL and Prisma, I maintained robust data
+        integrity. Meticulously planned modular architecture ensured a resilient foundation,
+        resulting in a successful full-stack project.`,
+    tags: ["TypeScript","Figma","NestJS","Prisma","Tailwind", "Next.js", "HTML","CSS", "Teamwork", "Web Development", "PostgreSQL", "Socket.io", "React.js"],
+    imageUrl: "/ft_tran.png",
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    title: "INCEPTION",
+    description: `Inception is a project aimed at setting up a WordPress website within a Docker container.
+The setup includes integrating a MariaDB database for efficient data storage and retrieval. By
+utilizing Docker, the project aims to streamline deployment and management processes,
+making it easier to maintain a consistent and isolated development environment.
+`,
+    tags: ["Docker", "MariaDB", "Nginx", "Web Development"],
+    imageUrl: "/docker.png",
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    title: "WEB SERVER USING C/C++",
+    description: `Simply it is a software application that runs on a computer and listens for
+incoming requests from clients over the internet or a local network When a client
+such as a web browser sends a request for a webpage the web server receives
+the request processes it and sends back the requested webpage as a response.`,
+    tags: ["C/C++", " Nginx", "HTML", "CSS", "Web Development" ,"HTTP", "Socket.io"],
+    imageUrl: '/webserver.jpg',
   },
 ] as const;
 

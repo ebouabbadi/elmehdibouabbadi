@@ -14,7 +14,9 @@ import { experimental_useFormStatus as useFormStatus } from "react-dom";
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
   const { pending } = useFormStatus();
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [number, setNumber] = useState('');
   const [message, setMessage] = useState('');
 
 
@@ -50,7 +52,9 @@ export default function Contact() {
         className="mt-10 flex flex-col dark:text-black"
         action={async () => {
           const formDetails = {
+            name: name,
             email: email,
+            number: number,
             message: message,
           };
           const serviceID = "ebouabbadi";
@@ -69,6 +73,16 @@ export default function Contact() {
       >
         <input
           className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          name="senderName"
+          type="name"
+          required
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          maxLength={500}
+          placeholder="Full Name"
+        />
+         <input
+          className="h-14 px-4 my-3 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="senderEmail"
           type="email"
           required
@@ -76,6 +90,16 @@ export default function Contact() {
           onChange={(e) => setEmail(e.target.value)}
           maxLength={500}
           placeholder="Your email"
+        />
+         <input
+          className="h-14 px-4 my-3 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          name="senderNumber"
+          type="number"
+          required
+          value={number}
+          onChange={(e) => setNumber(e.target.value)}
+          maxLength={500}
+          placeholder="Your number"
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"

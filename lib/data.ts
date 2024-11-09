@@ -23,10 +23,10 @@ export const links = [
     name: "Experience",
     hash: "#experience",
   },
-  // {
-  //   name: "Projects",
-  //   hash: "#projects",
-  // },
+  {
+    name: "Projects",
+    hash: "#projects",
+  },
   {
     name: "Skills",
     hash: "#skills",
@@ -42,27 +42,36 @@ export const experiencesData = [
     title: "Full-Stack Developer - Internship",
     campagne: "Sahih Business",
     location: "Tangier, Morocco · On-site",
-    description:
+    smallDescription:
+      "Developed and maintained ERP.",
+      bigDescription:
       "Developed and maintained ERP software using Odoo and Python, tailoring solutions to meet business needs.",
     icon: React.createElement(CgWorkAlt),
+    tags: ["Odoo", "Python", "CSS", "PostgreSQL"],
     date: "Mar 2024 - Apr 2024",
   },
   {
     title: "Mobile Developer - Internship",
     campagne: "L’Atelier Digital - Digital Agency & AI",
     location: "Casablanca, Morocco · Remote",
-    description:
+    smallDescription:
       "Spearheaded mobile app development using React Native and Expo, delivering robust, cross-platform solutions for iOS and Android devices.",
+       bigDescription:
+      "Spearheaded mobile app development",
     icon: React.createElement(CgWorkAlt),
+    tags: ["React", "react native", "android", "ios", "adobexd", "postman"],
     date: "Apr 2024 - Aug 2024",
   },
   {
     title: "Mobile Developer - Freelance",
     campagne: "L’Atelier Digital - Digital Agency & AI",
     location: "Casablanca, Morocco · Remote",
-    description:
+    smallDescription:
+      "Spearheading mobile development projects",
+      bigDescription:
       "Spearheading mobile development projects using React Native, ensuring smooth deployment and performance across iOS and Android platforms",
     icon: React.createElement(CgWorkAlt),
+    tags: ["React", "react native", "android", "ios", "adobexd", "postman", "teamwork"],
     date: "Aug 2024 - Present",
   },
 ] as const;
@@ -124,15 +133,18 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "TypeScript",
   "JavaScript",
+  "Python",
   "C/C++",
-  "React",
   "React Native",
   "Next.js",
   "Nest.js",
+  "React",
+  "Django",
+  "HTML",
+  "CSS",
+  "GraphQL",
   "Node.js",
   "TailwindCSS",
   "Odoo",
@@ -146,7 +158,6 @@ export const skillsData = [
   "Git",
   "Trello",
   "PostgreSQL",
-  "Python",
   "Framer Motion",
   "Figma",
   "AdobeXD",

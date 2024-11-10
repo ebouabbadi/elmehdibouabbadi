@@ -152,6 +152,14 @@ the request processes it and sends back the requested webpage as a response.`,
     tags: ["C/C++", " Nginx", "HTML", "CSS", "Web Development" ,"HTTP", "Socket.io"],
     imageUrl: '/webserver.jpg',
   },
+  {
+    title: "CUB3D",
+    description: `This project is inspired by the world-famous Wolfenstein 3D game, which
+was the first FPS ever. It will enable you to explore ray-casting. Your goal will be to
+make a dynamic view inside a maze, in which you’ll have to find your way.`,
+    tags: [" C/C++", "miniLibX", "Algorithms"],
+    imageUrl: '/cub3d.jpg',
+  },
 ] as const;
 
 export const skillsData = [

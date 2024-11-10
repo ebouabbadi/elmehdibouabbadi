@@ -44,7 +44,7 @@ export const experiencesData = [
     location: "Tangier, Morocco · On-site",
     smallDescription:
       "Developed and maintained ERP.",
-      bigDescription:
+    bigDescription:
       "Developed and maintained ERP software using Odoo and Python, tailoring solutions to meet business needs.",
     icon: React.createElement(CgWorkAlt),
     tags: ["Odoo", "Python", "CSS", "PostgreSQL"],
@@ -56,7 +56,7 @@ export const experiencesData = [
     location: "Casablanca, Morocco · Remote",
     smallDescription:
       "Spearheaded mobile app development using React Native and Expo, delivering robust, cross-platform solutions for iOS and Android devices.",
-       bigDescription:
+    bigDescription:
       "Spearheaded mobile app development using React Native and Expo, delivering robust, cross-platform solutions for iOS and Android devices.",
     icon: React.createElement(CgWorkAlt),
     tags: ["React", "react native", "android", "ios", "adobexd", "postman"],
@@ -68,7 +68,7 @@ export const experiencesData = [
     location: "Casablanca, Morocco · Remote",
     smallDescription:
       "Spearheading mobile development projects",
-      bigDescription:
+    bigDescription:
       "Spearheading mobile development projects using React Native, ensuring smooth deployment and performance across iOS and Android platforms",
     icon: React.createElement(CgWorkAlt),
     tags: ["React", "react native", "android", "ios", "adobexd", "postman", "teamwork"],
@@ -92,7 +92,7 @@ export const educationsData = [
     location: "Khouribga, Morocco",
 
     description:
-    "The Faculté Polydisciplinaire de Khouribga (FPK), established in 2004 as part of Morocco's decentralization and regionalization policies, is a multidisciplinary university under Sultan Moulay Slimane University. FPK offers a variety of initial and continuing education programs across fundamental and professional disciplines to meet the needs of the region it serves.",
+      "The Faculté Polydisciplinaire de Khouribga (FPK), established in 2004 as part of Morocco's decentralization and regionalization policies, is a multidisciplinary university under Sultan Moulay Slimane University. FPK offers a variety of initial and continuing education programs across fundamental and professional disciplines to meet the needs of the region it serves.",
     icon: React.createElement(LuGraduationCap),
     date: "2018 - 2022",
   },
@@ -105,18 +105,19 @@ export const educationsData = [
     icon: React.createElement(LuGraduationCap),
     date: "2021 - Present",
   },
-  
+
 ] as const;
 
 export const projectsData = [
   {
     title: "Startup",
-      description: ` Spearheading mobile development projects using React Native, ensuring smooth deployment and performance across iOS and Android platforms.
+    description: ` Spearheading mobile development projects using React Native, ensuring smooth deployment and performance across iOS and Android platforms.
 - Enhancing mobile applications with intuitive user interfaces and responsive designs, contributing to a high-quality user experience.
 - Collaborating with cross-functional teams to integrate innovative features and optimize app performance.
 - Utilizing a broad skill set, including Tailwind CSS, to deliver cutting-edge, user-centric mobile solutions that meet client requirements.`,
-tags: ["JavaScript","React.js", "React Native","AdobeXD","Tailwind","iOS Development", "Android Development", "HTML","CSS", "Teamwork", "Postman"],
-imageUrl: "/buzz.png"
+    tags: ["JavaScript", "React.js", "React Native", "AdobeXD", "Tailwind", "iOS Development", "Android Development", "HTML", "CSS", "Teamwork", "Postman"],
+    imageUrl: "/buzz.png",
+    link: "",
 
   },
   {
@@ -130,8 +131,9 @@ imageUrl: "/buzz.png"
         data management. Leveraging PostgreSQL and Prisma, I maintained robust data
         integrity. Meticulously planned modular architecture ensured a resilient foundation,
         resulting in a successful full-stack project.`,
-    tags: ["TypeScript","Figma","NestJS","Prisma","Tailwind", "Next.js", "HTML","CSS", "Teamwork", "Web Development", "PostgreSQL", "Socket.io", "React.js"],
+    tags: ["TypeScript", "Figma", "NestJS", "Prisma", "Tailwind", "Next.js", "HTML", "CSS", "Teamwork", "Web Development", "PostgreSQL", "Socket.io", "React.js"],
     imageUrl: "/ft_tran.png",
+    link: "https://drive.google.com/file/d/1kSyPON4wmgl1-ML2zq2fTcKqW_7gstvY/edit",
   },
   {
     title: "INCEPTION",
@@ -142,6 +144,7 @@ making it easier to maintain a consistent and isolated development environment.
 `,
     tags: ["Docker", "MariaDB", "Nginx", "Web Development"],
     imageUrl: "/docker.png",
+    link: "https://github.com/ebouabbadi/INCEPTION",
   },
   {
     title: "WEB SERVER USING C/C++",
@@ -149,8 +152,9 @@ making it easier to maintain a consistent and isolated development environment.
 incoming requests from clients over the internet or a local network When a client
 such as a web browser sends a request for a webpage the web server receives
 the request processes it and sends back the requested webpage as a response.`,
-    tags: ["C/C++", " Nginx", "HTML", "CSS", "Web Development" ,"HTTP", "Socket.io"],
+    tags: ["C/C++", " Nginx", "HTML", "CSS", "Web Development", "HTTP", "Socket.io"],
     imageUrl: '/webserver.jpg',
+    link: "https://github.com/ebouabbadi/WEBSERV",
   },
   {
     title: "CUB3D",
@@ -159,6 +163,7 @@ was the first FPS ever. It will enable you to explore ray-casting. Your goal wil
 make a dynamic view inside a maze, in which you’ll have to find your way.`,
     tags: [" C/C++", "miniLibX", "Algorithms"],
     imageUrl: '/cub3d.jpg',
+    link: "https://github.com/ebouabbadi/CUB3D",
   },
 ] as const;
 

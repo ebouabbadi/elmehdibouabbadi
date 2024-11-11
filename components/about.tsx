@@ -4,6 +4,7 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import moment from "moment";
 
 export default function About() {
   const { ref } = useSectionInView("About");
@@ -22,8 +23,8 @@ export default function About() {
       Hello, I'm <span className="font-medium">El Mehdi Bouabbadi</span>, a dedicated{" "}
       <span className="font-medium">Software Engineer</span> specializing in{" "}
       <span className="font-medium">Full Stack Development</span> for both{" "}
-      <span className="font-medium">web and mobile applications</span>. With over
-      three years of experience, I've honed my skills in key technologies such as{" "}
+      <span className="font-medium">web and mobile applications</span>. With over {" "}
+      {moment(202310, "YYYYMM").fromNow()} of experience, I've honed my skills in key technologies such as{" "}
       <span className="font-medium">
         React.js, React Native, Next.js, Node.js, Nest.js, and Docker
       </span>

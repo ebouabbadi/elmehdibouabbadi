@@ -5,6 +5,10 @@ import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
+import { HiLockClosed } from "react-icons/hi";
+import { FaGithub } from "react-icons/fa";
+import moment from 'moment'
+
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -14,6 +18,8 @@ export default function Project({
   tags,
   imageUrl,
   link,
+  isPrivate,
+  time
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -34,7 +40,19 @@ export default function Project({
     >
       <section className="bg-gray-100 max-w-[50rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-auto hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[52%] flex flex-col h-full sm:group-even:ml-[18rem]">
-          <Link  href={link} className="text-2xl underline hover:underline-offset-4 font-semibold">{title}</Link>
+          <div className="flex justify-fcenter items-center space-x-[2%]">
+          <Link  href={link} target="_blank" className={`text-2xl underline ${!isPrivate ? 'hover:underline-offset-4': null}  font-semibold`}>{title}</Link>
+         {isPrivate && <HiLockClosed className="opacity-60 " />}
+         <a
+          className=" hover:text-green-500 "
+          href={link}
+          target="_blank"
+        >
+          <FaGithub className="h-[1.5rem] w-[1.5rem]" />
+        </a>
+        <div className="text-xs md:text-sm text-gray-600">{moment(time, "YYYYMM").fromNow()}</div>
+          </div>
+
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>

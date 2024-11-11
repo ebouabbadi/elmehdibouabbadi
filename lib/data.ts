@@ -1,5 +1,5 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
+import { CgToolbox, CgWebsite, CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
@@ -14,6 +14,7 @@ export const links = [
   {
     name: "About",
     hash: "#about",
+
   },
   {
     name: "Education",
@@ -92,7 +93,7 @@ export const educationsData = [
     location: "Khouribga, Morocco",
 
     description:
-      "The Faculté Polydisciplinaire de Khouribga (FPK), established in 2004 as part of Morocco's decentralization and regionalization policies, is a multidisciplinary university under Sultan Moulay Slimane University. FPK offers a variety of initial and continuing education programs across fundamental and professional disciplines to meet the needs of the region it serves.",
+      "The Faculté Polydisciplinaire de Khouribga (FPK), established in 2004, offers multidisciplinary education under Sultan Moulay Slimane University, providing diverse programs in fundamental and professional fields to meet the region's educational needs.",
     icon: React.createElement(LuGraduationCap),
     date: "2018 - 2022",
   },
@@ -101,7 +102,7 @@ export const educationsData = [
     school: "UM6P - Mohammed VI Polytechnic University - 1337",
     location: "Khouribga, Morocco",
     description:
-      "1337 is the first institution to provide free IT training in Morocco. Its educational approach is based on peer learning, a participatory method that allows students to unleash their creativity through project-based learning, preparing the future coders of tomorrow. 1337 is the coding school par excellence, offering a full immersion in a universe where the future is already present.",
+      "1337 is Morocco's first free IT training institution, using peer-based, project-driven learning to prepare future coders for tomorrow’s challenges. It offers full immersion in cutting-edge coding education.",
     icon: React.createElement(LuGraduationCap),
     date: "2021 - Present",
   },
@@ -118,7 +119,8 @@ export const projectsData = [
     tags: ["JavaScript", "React.js", "React Native", "AdobeXD", "Tailwind", "iOS Development", "Android Development", "HTML", "CSS", "Teamwork", "Postman"],
     imageUrl: "/buzz.png",
     link: "",
-
+    isPrivate: true,
+    time: '202411',
   },
   {
     title: "TRANSCENDENCE",
@@ -134,6 +136,8 @@ export const projectsData = [
     tags: ["TypeScript", "Figma", "NestJS", "Prisma", "Tailwind", "Next.js", "HTML", "CSS", "Teamwork", "Web Development", "PostgreSQL", "Socket.io", "React.js"],
     imageUrl: "/ft_tran.png",
     link: "https://drive.google.com/file/d/1kSyPON4wmgl1-ML2zq2fTcKqW_7gstvY/edit",
+    isPrivate: false,
+    time: '202401',
   },
   {
     title: "INCEPTION",
@@ -145,25 +149,43 @@ making it easier to maintain a consistent and isolated development environment.
     tags: ["Docker", "MariaDB", "Nginx", "Web Development"],
     imageUrl: "/docker.png",
     link: "https://github.com/ebouabbadi/INCEPTION",
+    isPrivate: false,
+    time: '202309',
+
+
   },
   {
-    title: "WEB SERVER USING C/C++",
+    title: "WEB SERVER",
     description: `Simply it is a software application that runs on a computer and listens for
 incoming requests from clients over the internet or a local network When a client
 such as a web browser sends a request for a webpage the web server receives
 the request processes it and sends back the requested webpage as a response.`,
-    tags: ["C/C++", " Nginx", "HTML", "CSS", "Web Development", "HTTP", "Socket.io"],
+    tags: ["C/C++", " Nginx", "HTML", "CSS", "Web Development", "HTTP", "Socket.io","Teamwork"],
     imageUrl: '/webserver.jpg',
     link: "https://github.com/ebouabbadi/WEBSERV",
+    isPrivate: false,
+    time: '202304',
   },
   {
     title: "CUB3D",
     description: `This project is inspired by the world-famous Wolfenstein 3D game, which
 was the first FPS ever. It will enable you to explore ray-casting. Your goal will be to
 make a dynamic view inside a maze, in which you’ll have to find your way.`,
-    tags: [" C/C++", "miniLibX", "Algorithms"],
+    tags: [" C/C++", "miniLibX", "Algorithms","Teamwork"],
     imageUrl: '/cub3d.jpg',
     link: "https://github.com/ebouabbadi/CUB3D",
+    isPrivate: false,
+    time: '202301',
+  },
+  {
+    title: "MiniShell",
+    description: `Created a simple shell, deepening understanding of processes and file descriptors. This project provided hands-on experience with command-line interactions and the underlying mechanisms that shaped early computing interfaces.`,
+    tags: [" C/C++", "Algorithms", "Bash" ,"Teamwork"],
+    imageUrl: '/shell.jpg',
+    link: "https://github.com/ebouabbadi/MINISHELL",
+    isPrivate: false,
+    time: '202210',
+
   },
 ] as const;
 

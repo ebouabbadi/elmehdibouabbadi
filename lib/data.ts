@@ -79,7 +79,7 @@ export const experiencesData = [
       "Spearheading mobile development projects using React Native, ensuring smooth deployment and performance across iOS and Android platforms",
     icon: React.createElement(CgWorkAlt),
     tags: ["React", "react native", "android", "ios", "adobexd", "postman", "teamwork"],
-    date: "Aug 2024 - Present",
+    date: "Aug 2024 - Oct 2024",
   },
 ] as const;
 

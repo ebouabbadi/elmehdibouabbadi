@@ -44,14 +44,8 @@ export default function Header() {
                 }}
               >
                 <p className=" hidden sm:block">{link.name}</p>
-                <div className="dark:text-gray-200 dark:hover:text-gray-600">
-                  {link.name == 'Home' &&  <FaHome className="h-[1.5rem] w-[1.5rem] sm:hidden "/>}
-                  {link.name == 'About' &&  <FaUser className="h-[1.5rem] w-[1.5rem] sm:hidden "/>}
-                  {link.name == 'Education' &&  <FaGraduationCap className="h-[1.5rem] w-[1.5rem] sm:hidden "/>}
-                  {link.name == 'Experience' &&  <FaBriefcase className="h-[1.5rem] w-[1.5rem] sm:hidden "/>}
-                  {link.name == 'Projects' &&  <FaFolderOpen className="h-[1.5rem] w-[1.5rem] sm:hidden "/>}
-                  {link.name == 'Skills' &&  <FaLaptopCode className="h-[1.5rem] w-[1.5rem] sm:hidden "/>}
-                  {link.name == 'Contact' &&  <FaEnvelope className="h-[1.5rem] w-[1.5rem] sm:hidden "/>}
+                <div className="dark:text-gray-200 flex justify-center items-center  dark:hover:text-gray-600 h-[1.5rem] w-[1.5rem] sm:hidden ">
+                  {link.icon}
                 </div>
 
                 {link.name === activeSection && (

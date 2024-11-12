@@ -1,6 +1,6 @@
 import React from "react";
-import { CgToolbox, CgWebsite, CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { CgAwards, CgBriefcase, CgCodeSlash, CgFolder, CgHome, CgMail, CgProfile, CgToolbox, CgWebsite, CgWorkAlt } from "react-icons/cg";
+import { FaBrain, FaBriefcase, FaClipboardList, FaCode, FaEnvelope, FaFolderOpen, FaGithub, FaGraduationCap, FaHome, FaInfoCircle, FaKeyboard, FaLaptopCode, FaLightbulb, FaProjectDiagram, FaRProject, FaTasks, FaTools, FaUser, FaUserAlt } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -10,31 +10,37 @@ export const links = [
   {
     name: "Home",
     hash: "#home",
+    icon: React.createElement(FaHome, {size: 22}),
   },
   {
     name: "About",
     hash: "#about",
-
+    icon: React.createElement(FaUser, {size: 22}),
   },
   {
     name: "Education",
     hash: "#education",
+    icon: React.createElement(FaGraduationCap, {size: 22}),
   },
   {
     name: "Experience",
     hash: "#experience",
+    icon: React.createElement(FaBriefcase, {size: 22}),
   },
   {
     name: "Projects",
     hash: "#projects",
+    icon: React.createElement(FaFolderOpen, {size: 22}),
   },
   {
     name: "Skills",
     hash: "#skills",
+    icon: React.createElement(FaLaptopCode, {size: 22}),
   },
   {
     name: "Contact",
     hash: "#contact",
+    icon: React.createElement(FaEnvelope, {size: 22}),
   },
 ] as const;
 

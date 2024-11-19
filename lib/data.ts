@@ -46,7 +46,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Full-Stack Developer - Internship",
+    title: "Odoo Developer - Internship",
     campagne: "Sahih Business",
     location: "Tangier, Morocco · On-site",
     smallDescription:

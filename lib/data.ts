@@ -123,7 +123,7 @@ export const projectsData = [
     imageUrl: "/yawmiat.png",
     link: "",
     isPrivate: true,
-    time: '20241119',
+    time: '',
   },
   {
     title: "Startup",

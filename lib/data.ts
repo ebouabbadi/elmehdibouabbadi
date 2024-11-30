@@ -123,7 +123,7 @@ export const projectsData = [
     imageUrl: "/qualityManagement.png",
     link: "",
     isPrivate: true,
-    time: '202411',
+    time: '20241116',
   },
    {
     title: "Yawmiyat",
@@ -132,7 +132,7 @@ export const projectsData = [
     imageUrl: "/yawmiat.png",
     link: "",
     isPrivate: true,
-    time: '202410',
+    time: '20241105',
   },
   {
     title: "Startup",
@@ -144,7 +144,7 @@ export const projectsData = [
     imageUrl: "/buzz.png",
     link: "",
     isPrivate: true,
-    time: '202410',
+    time: '20241029',
   },
   {
     title: "TRANSCENDENCE",

@@ -50,7 +50,7 @@ export default function Project({
         >
           <FaGithub className="h-[1.5rem] w-[1.5rem]" />
         </a>
-        <div className="text-xs md:text-sm text-gray-600">{moment(time, "YYYYMMDD").add(1, 'days').format("YYYY-MM-DD")}</div>
+        <div className="text-xs md:text-sm text-gray-600">{moment(time, "YYYYMMDD").add(1, 'days').fromNow()}</div>
           </div>
 
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">

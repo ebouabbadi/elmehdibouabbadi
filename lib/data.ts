@@ -116,15 +116,24 @@ export const educationsData = [
 ] as const;
 
 export const projectsData = [
-  //  {
-  //   title: "Yawmiyat",
-  //   description: `Yawmiyat is a modern and user-friendly app designed to help you organize your day, jot down your activities, and track your daily goals. Whether you want to plan your tasks, write down ideas, or recall important moments, Yawmiyat is your personal companion to structure your life and stay productive.`,
-  //   tags: ["JavaScript", "React.js","node.js","Prisma", "React Native", "Tailwind", "iOS Development", "Android Development", "HTML", "CSS", "Teamwork", "Postman"],
-  //   imageUrl: "/yawmiat.png",
-  //   link: "",
-  //   isPrivate: true,
-  //   time: '',
-  // },
+   {
+    title: "Yawmiyat",
+    description: `Yawmiyat is a modern and user-friendly app designed to help you organize your day, jot down your activities, and track your daily goals. Whether you want to plan your tasks, write down ideas, or recall important moments, Yawmiyat is your personal companion to structure your life and stay productive.`,
+    tags: ["JavaScript", "React.js","node.js","Prisma", "React Native", "Tailwind", "iOS Development", "Android Development", "HTML", "CSS", "Teamwork", "Postman"],
+    imageUrl: "/yawmiat.png",
+    link: "",
+    isPrivate: true,
+    time: '',
+  },
+   {
+    title: "Quality Management",
+    description: `This module allows you to manage quality checks and inspections for your products.`,
+    tags: ["Docker","Odoo", "Python", "CSS", "PostgreSQL", "Xml"],
+    imageUrl: "/qualityManagement.png",
+    link: "202411",
+    isPrivate: true,
+    time: '',
+  },
   {
     title: "Startup",
     description: ` Spearheading mobile development projects using React Native, ensuring smooth deployment and performance across iOS and Android platforms.

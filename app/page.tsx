@@ -13,9 +13,9 @@ export default function Home() {
       <Intro />
       <SectionDivider />
       <About />
-      <Education/>
-      <Experience />
       <Projects />
+      <Experience />
+      <Education/>
       <Skills />
       <Contact />
     </main>

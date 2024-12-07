@@ -6,7 +6,6 @@ import { links } from "@/lib/data";
 import Link from "next/link";
 import clsx from "clsx";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import { FaBrain, FaBriefcase, FaClipboardList, FaCode, FaEnvelope, FaFolderOpen, FaGithub, FaGraduationCap, FaHome, FaInfoCircle, FaKeyboard, FaLaptopCode, FaLightbulb, FaProjectDiagram, FaRProject, FaTasks, FaTools, FaUser, FaUserAlt } from "react-icons/fa";
 
 export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =

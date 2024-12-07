@@ -50,7 +50,10 @@ export default function Project({
         >
           <FaGithub className="h-[1.5rem] w-[1.5rem]" />
         </a>
-        <div className="text-xs md:text-sm text-gray-600">{moment(time, "YYYYMM").fromNow()}</div>
+        {
+          time ? <div className="text-xs md:text-sm text-gray-600">{moment(time, "YYYYMM").fromNow()}</div> : <div className="text-xs md:text-sm text-gray-600">Present</div> 
+        }
+        
           </div>
 
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">

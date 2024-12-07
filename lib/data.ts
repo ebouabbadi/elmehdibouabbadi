@@ -2,9 +2,6 @@ import React from "react";
 import { CgAwards, CgBriefcase, CgCodeSlash, CgFolder, CgHome, CgMail, CgProfile, CgToolbox, CgWebsite, CgWorkAlt } from "react-icons/cg";
 import { FaBrain, FaBriefcase, FaClipboardList, FaCode, FaEnvelope, FaFolderOpen, FaGithub, FaGraduationCap, FaHome, FaInfoCircle, FaKeyboard, FaLaptopCode, FaLightbulb, FaProjectDiagram, FaRProject, FaTasks, FaTools, FaUser, FaUserAlt } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -18,9 +15,9 @@ export const links = [
     icon: React.createElement(FaUser, {size: 22}),
   },
   {
-    name: "Education",
-    hash: "#education",
-    icon: React.createElement(FaGraduationCap, {size: 22}),
+    name: "Projects",
+    hash: "#projects",
+    icon: React.createElement(FaFolderOpen, {size: 22}),
   },
   {
     name: "Experience",
@@ -28,9 +25,9 @@ export const links = [
     icon: React.createElement(FaBriefcase, {size: 22}),
   },
   {
-    name: "Projects",
-    hash: "#projects",
-    icon: React.createElement(FaFolderOpen, {size: 22}),
+    name: "Education",
+    hash: "#education",
+    icon: React.createElement(FaGraduationCap, {size: 22}),
   },
   {
     name: "Skills",
@@ -116,6 +113,15 @@ export const educationsData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Yawmiyat",
+    description: `Yawmiyat is a modern and user-friendly app designed to help you organize your day, jot down your activities, and track your daily goals. Whether you want to plan your tasks, write down ideas, or recall important moments, Yawmiyat is your personal companion to structure your life and stay productive.`,
+    tags: ["JavaScript", "React.js","node.js","Prisma", "React Native", "Tailwind", "iOS Development", "Android Development", "HTML", "CSS", "Teamwork", "Postman"],
+    imageUrl: "/yawmiat.png",
+    link: "",
+    isPrivate: true,
+    time: '',
+  },
   {
     title: "Startup",
     description: ` Spearheading mobile development projects using React Native, ensuring smooth deployment and performance across iOS and Android platforms.

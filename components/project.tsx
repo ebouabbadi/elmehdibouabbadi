@@ -6,7 +6,7 @@ import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import { HiLockClosed } from "react-icons/hi";
-import { FaGithub } from "react-icons/fa";
+import { FaDraftingCompass, FaGithub, FaPaperPlane, FaStreetView } from "react-icons/fa";
 import moment from 'moment'
 
 
@@ -48,12 +48,9 @@ export default function Project({
           href={link}
           target="_blank"
         >
-          <FaGithub className="h-[1.5rem] w-[1.5rem]" />
+          {!isPrivate && <FaPaperPlane className="h-[1.2rem] w-[1.2rem]" />}
         </a>
-        {
-          time ? <div className="text-xs md:text-sm text-gray-600">{moment(time, "YYYYMM").fromNow()}</div> : <div className="text-xs md:text-sm text-gray-600">Present</div> 
-        }
-        
+        <div className="text-xs md:text-sm text-gray-600">{moment(time, "YYYYMMDD").add(1, 'days').fromNow()}</div>
           </div>
 
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">

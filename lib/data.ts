@@ -43,7 +43,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Full-Stack Developer - Internship",
+    title: "Odoo Developer - Internship",
     campagne: "Sahih Business",
     location: "Tangier, Morocco · On-site",
     smallDescription:
@@ -114,13 +114,31 @@ export const educationsData = [
 
 export const projectsData = [
   {
+   title: "Mehdi Codes",
+   description: `Explore my blog, where I share my journey in technology, coding tips, and insights into web and mobile development. From beginner-friendly tutorials to advanced problem-solving techniques, this space is designed to inspire and empower developers at every level. Dive into topics like NextJS, React Native, JavaScript, Docker, and more as we learn and grow together in the ever-evolving tech landscape.`,
+   tags: ["TypeScrip","Next.js", "React.js","node.js", "Tailwind", "HTML", "CSS"],
+   imageUrl: "/myblog.png",
+   link: "https://mehdicodes.vercel.app/",
+   isPrivate: false,
+   time: '20241207',
+ },
+   {
+    title: "Quality Management",
+    description: `This module allows you to manage quality checks and inspections for your products.`,
+    tags: ["Docker","Odoo", "Python", "CSS", "PostgreSQL", "Xml"],
+    imageUrl: "/qualityManagement.png",
+    link: "https://github.com/ebouabbadi/odoo11/tree/main/addons/quality_management",
+    isPrivate: false,
+    time: '20241116',
+  },
+  {
     title: "Yawmiyat",
     description: `Yawmiyat is a modern and user-friendly app designed to help you organize your day, jot down your activities, and track your daily goals. Whether you want to plan your tasks, write down ideas, or recall important moments, Yawmiyat is your personal companion to structure your life and stay productive.`,
     tags: ["JavaScript", "React.js","node.js","Prisma", "React Native", "Tailwind", "iOS Development", "Android Development", "HTML", "CSS", "Teamwork", "Postman"],
     imageUrl: "/yawmiat.png",
     link: "",
     isPrivate: true,
-    time: '',
+    time: '20241120',
   },
   {
     title: "Startup",
@@ -128,11 +146,11 @@ export const projectsData = [
 - Enhancing mobile applications with intuitive user interfaces and responsive designs, contributing to a high-quality user experience.
 - Collaborating with cross-functional teams to integrate innovative features and optimize app performance.
 - Utilizing a broad skill set, including Tailwind CSS, to deliver cutting-edge, user-centric mobile solutions that meet client requirements.`,
-    tags: ["JavaScript", "React.js", "React Native", "AdobeXD", "Tailwind", "iOS Development", "Android Development", "HTML", "CSS", "Teamwork", "Postman"],
+    tags: ["JavaScript","TypeScrip", "React.js", "React Native", "AdobeXD", "Tailwind", "iOS Development", "Android Development", "HTML", "CSS", "Teamwork", "Postman"],
     imageUrl: "/buzz.png",
     link: "",
     isPrivate: true,
-    time: '202411',
+    time: '20241029',
   },
   {
     title: "TRANSCENDENCE",

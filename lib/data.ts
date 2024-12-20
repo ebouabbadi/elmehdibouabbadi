@@ -43,7 +43,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Odoo Developer - Internship",
+    title: "Full-Stack Developer - Internship",
     campagne: "Sahih Business",
     location: "Tangier, Morocco · On-site",
     smallDescription:
@@ -118,19 +118,10 @@ export const projectsData = [
    description: `Explore my blog, where I share my journey in technology, coding tips, and insights into web and mobile development. From beginner-friendly tutorials to advanced problem-solving techniques, this space is designed to inspire and empower developers at every level. Dive into topics like NextJS, React Native, JavaScript, Docker, and more as we learn and grow together in the ever-evolving tech landscape.`,
    tags: ["TypeScrip","Next.js", "React.js","node.js", "Tailwind", "HTML", "CSS"],
    imageUrl: "/myblog.png",
-   link: "https://mehdicodes.vercel.app/",
+   link: "https://mehdicodes.com/",
    isPrivate: false,
    time: '20241207',
  },
-   {
-    title: "Quality Management",
-    description: `This module allows you to manage quality checks and inspections for your products.`,
-    tags: ["Docker","Odoo", "Python", "CSS", "PostgreSQL", "Xml"],
-    imageUrl: "/qualityManagement.png",
-    link: "https://github.com/ebouabbadi/odoo11/tree/main/addons/quality_management",
-    isPrivate: false,
-    time: '20241116',
-  },
   {
     title: "Yawmiyat",
     description: `Yawmiyat is a modern and user-friendly app designed to help you organize your day, jot down your activities, and track your daily goals. Whether you want to plan your tasks, write down ideas, or recall important moments, Yawmiyat is your personal companion to structure your life and stay productive.`,
@@ -139,6 +130,15 @@ export const projectsData = [
     link: "",
     isPrivate: true,
     time: '20241120',
+  },
+   {
+    title: "Quality Management",
+    description: `This module allows you to manage quality checks and inspections for your products.`,
+    tags: ["Docker","Odoo", "Python", "CSS", "PostgreSQL", "Xml"],
+    imageUrl: "/qualityManagement.png",
+    link: "https://github.com/ebouabbadi/odoo11/tree/main/addons/quality_management",
+    isPrivate: false,
+    time: '20241116',
   },
   {
     title: "Startup",

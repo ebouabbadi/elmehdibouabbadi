@@ -131,15 +131,6 @@ export const projectsData = [
     isPrivate: true,
     time: '20241120',
   },
-   {
-    title: "Quality Management",
-    description: `This module allows you to manage quality checks and inspections for your products.`,
-    tags: ["Docker","Odoo", "Python", "CSS", "PostgreSQL", "Xml"],
-    imageUrl: "/qualityManagement.png",
-    link: "https://github.com/ebouabbadi/odoo11/tree/main/addons/quality_management",
-    isPrivate: false,
-    time: '20241116',
-  },
   {
     title: "Startup",
     description: ` Spearheading mobile development projects using React Native, ensuring smooth deployment and performance across iOS and Android platforms.

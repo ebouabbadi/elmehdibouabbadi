@@ -118,7 +118,7 @@ export const projectsData = [
    description: `Explore my blog, where I share my journey in technology, coding tips, and insights into web and mobile development. From beginner-friendly tutorials to advanced problem-solving techniques, this space is designed to inspire and empower developers at every level. Dive into topics like NextJS, React Native, JavaScript, Docker, and more as we learn and grow together in the ever-evolving tech landscape.`,
    tags: ["TypeScrip","Next.js", "React.js","node.js", "Tailwind", "HTML", "CSS"],
    imageUrl: "/myblog.png",
-   link: "https://mehdicodes.com/",
+   link: "https://mehdicodes.vercel.app/",
    isPrivate: false,
    time: '20241207',
  },

@@ -78,6 +78,18 @@ export const experiencesData = [
     tags: ["React", "react native", "android", "ios", "adobexd", "postman", "teamwork"],
     date: "Aug 2024 - Oct 2024",
   },
+  {
+    title: "Software Engineer | IT Consultant",
+    campagne: "FINEOPOLIS ADVISORY SERVICES",
+    location: "Casablanca, Morocco · On-site",
+    smallDescription:
+      "",
+    bigDescription:
+      "",
+    icon: React.createElement(CgWorkAlt),
+    tags: [],
+    date: "Jan 2025 - Present",
+  },
 ] as const;
 
 export const educationsData = [
@@ -131,18 +143,18 @@ export const projectsData = [
     isPrivate: true,
     time: '20241120',
   },
-//   {
-//     title: "Startup",
-//     description: ` Spearheading mobile development projects using React Native, ensuring smooth deployment and performance across iOS and Android platforms.
-// - Enhancing mobile applications with intuitive user interfaces and responsive designs, contributing to a high-quality user experience.
-// - Collaborating with cross-functional teams to integrate innovative features and optimize app performance.
-// - Utilizing a broad skill set, including Tailwind CSS, to deliver cutting-edge, user-centric mobile solutions that meet client requirements.`,
-//     tags: ["JavaScript","TypeScrip", "React.js", "React Native", "AdobeXD", "Tailwind", "iOS Development", "Android Development", "HTML", "CSS", "Teamwork", "Postman"],
-//     imageUrl: "/buzz.png",
-//     link: "",
-//     isPrivate: true,
-//     time: '20241029',
-//   },
+  {
+    title: "Startup",
+    description: ` Spearheading mobile development projects using React Native, ensuring smooth deployment and performance across iOS and Android platforms.
+- Enhancing mobile applications with intuitive user interfaces and responsive designs, contributing to a high-quality user experience.
+- Collaborating with cross-functional teams to integrate innovative features and optimize app performance.
+- Utilizing a broad skill set, including Tailwind CSS, to deliver cutting-edge, user-centric mobile solutions that meet client requirements.`,
+    tags: ["JavaScript","TypeScrip", "React.js", "React Native", "AdobeXD", "Tailwind", "iOS Development", "Android Development", "HTML", "CSS", "Teamwork", "Postman"],
+    imageUrl: "/buzz.png",
+    link: "",
+    isPrivate: true,
+    time: '20241029',
+  },
   {
     title: "TRANSCENDENCE",
     description:

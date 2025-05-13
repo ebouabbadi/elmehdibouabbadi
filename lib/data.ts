@@ -87,7 +87,19 @@ export const experiencesData = [
     bigDescription:
       "",
     icon: React.createElement(CgWorkAlt),
-    tags: [],
+    tags: ["Next.js", "Nest.js", "Node.js", "React", "TypeScript", "Git", "teamwork"],
+    date: "Jan 2025 - Present",
+  },
+   {
+    title: "Frontend Engineer",
+    campagne: "Nexvoie",
+    location: "Morocco · Remote",
+    smallDescription:
+      "",
+    bigDescription:
+      "",
+    icon: React.createElement(CgWorkAlt),
+    tags: ["Next.js", "React", "TypeScript", "Git", "teamwork"],
     date: "Jan 2025 - Present",
   },
 ] as const;

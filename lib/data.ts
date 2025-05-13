@@ -88,7 +88,7 @@ export const experiencesData = [
       "",
     icon: React.createElement(CgWorkAlt),
     tags: ["Next.js", "Nest.js", "Node.js", "React", "TypeScript", "Git", "teamwork"],
-    date: "Jan 2025 - Present",
+    date: "Jan 2025 - Mar 2025",
   },
    {
     title: "Frontend Engineer",

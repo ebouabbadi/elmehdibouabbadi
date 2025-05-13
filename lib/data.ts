@@ -100,7 +100,7 @@ export const experiencesData = [
       "",
     icon: React.createElement(CgWorkAlt),
     tags: ["Next.js", "React", "TypeScript", "Git", "teamwork"],
-    date: "Jan 2025 - Present",
+    date: "Apr 2025 - Present",
   },
 ] as const;
 
